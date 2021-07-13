@@ -34,6 +34,5 @@ body{
 .intro{
     font-size: 30px;
     margin-top: 20px;
-    background-color: bisque;
-    color:blue;
+    color: rgb(165, 133, 74);
 }

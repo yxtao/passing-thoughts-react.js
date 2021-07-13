@@ -9,6 +9,7 @@ const Input = (props) => {
     const handleSubmit=()=>{
         if (text.length>0){
          props.parentCallback(text)
+         setText('')
         } else{
             alert("please enter words")
         }
